@@ -99,6 +99,7 @@ public class Main {
             if (array1[i] % 2 != 0) {
                 array1[i] = array1[i] + 1;
                 System.out.println(Arrays.toString(array1));
+
             }
         }
 
