@@ -95,13 +95,11 @@ public class Main {
         array1[0] = 1;
         array1[1] = 2;
         array1[2] = 3;
-        for (int i = 0; i < array1.lenght; i++) {
+        for (int i = 0; i < array1.length; i++) {
             if (array1[i] % 2 != 0) {
                 array1[i] = array1[i] + 1;
-                System.out.println(Arrays.toString(array1));
-
             }
         }
-
+        System.out.println(Arrays.toString(array1));
     }
 }
